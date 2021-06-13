@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Bench press",
+        "sets": [{
+            "set": 1,
+            "weight": "150lbs",
+            "reps": 5
+        },
+        {
+            "set": 2,
+            "weight": "150lbs",
+            "reps": 5
+        },
+        {
+            "set": 3,
+            "weight": "150lbs",
+            "reps": 5
+        },
+        {
+            "set": 4,
+            "weight": "150lbs",
+            "reps": 5
+        }]
+    },
+    {
+        "name": "OHP",
+        "sets": [{
+            "set": 1,
+            "weight": "125lbs",
+            "reps": 8
+        },
+        {
+            "set": 2,
+            "weight": "125lbs",
+            "reps": 8
+        },
+        {
+            "set": 3,
+            "weight": "125lbs",
+            "reps": 8
+        },
+        {
+            "set": 4,
+            "weight": "125lbs",
+            "reps": 8
+        }]
+    }
+]

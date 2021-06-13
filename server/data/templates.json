@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Bench press",
+        "sets": [{
+            "set": 1,
+            "weight": "",
+            "reps": 0
+        },
+        {
+            "set": 2,
+            "weight": "",
+            "reps": 0
+        },
+        {
+            "set": 3,
+            "weight": "",
+            "reps": 0
+        },
+        {
+            "set": 4,
+            "weight": "",
+            "reps": 0
+        }]
+    },
+    {
+        "name": "OHP",
+        "sets": [{
+            "set": 1,
+            "weight": "",
+            "reps": 0
+        },
+        {
+            "set": 2,
+            "weight": "",
+            "reps": 0
+        },
+        {
+            "set": 3,
+            "weight": "",
+            "reps": 0
+        },
+        {
+            "set": 4,
+            "weight": "",
+            "reps": 0
+        }]
+    }
+]

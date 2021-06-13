@@ -18,8 +18,9 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("/templates", templates);
-app.use("/workouts", workouts);
+app.use('', workouts);
+app.use('', templates);
+
 
 // Server Start
 app.listen(port, () => {

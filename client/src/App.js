@@ -1,8 +1,17 @@
 import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import LandingPage from '../src/pages/LandingPage';
 
 function App() {
   return (
-    <h1>GEMINI</h1>
+    <>
+      <BrowserRouter>
+          <Switch>
+            <Route path="/" exact component={LandingPage} />
+          </Switch>
+      </BrowserRouter>
+    </>
+    
   );
 }
 

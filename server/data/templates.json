@@ -1,1 +1,31 @@
-[{"name":"Push Day","exercises":[{"name":"Bench press","sets":4},{"name":"OHP","sets":4},{"name":"Incline Bench","sets":4},{"name":"Skull Crushers","sets":4},{"name":"French Press","sets":4},{"name":"Lat Raises","sets":5}]},[{"name":"Push Day","exercises":[{},{},{},{},{},{}]}],[{"name":"Push Day","exercises":[{},{},{},{},{},{}]}],[{"name":"Push Day","exercises":[{},{},{},{},{},{}]}],[{"name":"Push Day","exercises":[{},{},{},{},{},{}]}],[{"name":"Push Day","exercises":[{},{},{},{},{},{}]}]]
+[
+    {
+        "name": "Push Day",
+        "exercises": [
+            {
+                "name": "Bench press",
+                "sets": 4
+            },
+            {
+                "name": "OHP",
+                "sets": 4
+            },
+            {
+                "name": "Incline Bench",
+                "sets": 4
+            },
+            {
+                "name": "Skull Crushers",
+                "sets": 4
+            },
+            {
+                "name": "French Press",
+                "sets": 4
+            },
+            {
+                "name": "Lat Raises",
+                "sets": 5
+            }
+        ]
+    }
+]

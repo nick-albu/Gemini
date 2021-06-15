@@ -1,0 +1,28 @@
+.landingPage {
+    background: url(../assets/images/landing-background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    &__cda {
+        height: 2.25rem;
+        width: 10rem;
+        text-decoration: none;
+        color: white;
+        background-color: #CC0776;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    &__logo {
+        width: 90%;
+        margin-top: 3rem;
+    }
+}

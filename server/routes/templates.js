@@ -28,15 +28,16 @@ router.post('/templates', (req, res) => {
         {
         name: req.body.name,
         exercises: [
-            {exercise1: req.body.exercises.exercise1, sets1: req.body.exercises.sets1}, 
-            {exercise2: req.body.exercises.exercise2, sets2: req.body.exercises.sets2}, 
-            {exercise3: req.body.exercises.exercise3, sets3: req.body.exercises.sets3}, 
-            {exercise4: req.body.exercises.exercise4, sets4: req.body.exercises.sets4},
-            {exercise5: req.body.exercises.exercise5, sets5: req.body.exercises.sets5}, 
-            {exercise6: req.body.exercises.exercise6, sets6: req.body.exercises.sets6},
+            {exercise1: req.body.exercises[0], sets1: req.body.exercises.sets1}, 
+            {exercise2: req.body.exercises[1], sets2: req.body.exercises.sets2}, 
+            {exercise3: req.body.exercises[2], sets3: req.body.exercises.sets3}, 
+            {exercise4: req.body.exercises[3], sets4: req.body.exercises.sets4},
+            {exercise5: req.body.exercises[4], sets5: req.body.exercises.sets5}, 
+            {exercise6: req.body.exercises[5], sets6: req.body.exercises.sets6},
         ]
         }
     ]
+    console.log(req.body);
     templatesData.push(newTemplate);
     writeTemplates(templatesData);
     return res.json(newTemplate);

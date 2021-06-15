@@ -22,25 +22,25 @@ router.get('/workouts', (_req, res) => {
 })
 
 // Function to post to /workouts
-router.post('/workouts', (req, res) => {
-    const workoutsData = readWorkouts();
-    const newWorkout = [
-        {
-        name: "Insert Name",
-        exercises: [
-            {name: "", sets: 0}, 
-            {name: "", sets: 0}, 
-            {name: "", sets: 0}, 
-            {name: "", sets: 0},
-            {name: "", sets: 0}, 
-            {name: "", sets: 0},
-        ]
-        }
-    ]
-    workoutsData.push(newWorkout);
-    writeWorkouts(workoutsData);
-    return res.json(newWorkout);
-})
+// router.post('/workouts', (req, res) => {
+//     const workoutsData = readWorkouts();
+//     const newWorkout = [
+//         {
+//         name: "Insert Name",
+//         exercises: [
+//             {name: "", sets: 0}, 
+//             {name: "", sets: 0}, 
+//             {name: "", sets: 0}, 
+//             {name: "", sets: 0},
+//             {name: "", sets: 0}, 
+//             {name: "", sets: 0},
+//         ]
+//         }
+//     ]
+//     workoutsData.push(newWorkout);
+//     writeWorkouts(workoutsData);
+//     return res.json(newWorkout);
+// })
 
 
 module.exports = router;

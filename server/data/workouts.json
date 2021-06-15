@@ -1,48 +1,133 @@
 [
     {
-        "name": "Bench press",
-        "sets": [{
-            "set": 1,
-            "weight": "150lbs",
-            "reps": 5
+        "name": "Push Day",
+        "exercises": 
+        [{
+            "name": "Bench press",
+            "sets": [
+                {
+                "weight": 135,
+                "reps": 5
+                },
+                {
+                "weight": 135,
+                "reps": 5
+                },
+                {
+                "weight": 135,
+                "reps": 5
+                },
+                {
+                "weight": 135,
+                "reps": 5
+                }
+            ]
         },
         {
-            "set": 2,
-            "weight": "150lbs",
-            "reps": 5
+            "name": "OHP",
+            "sets": [
+                {
+                "weight": 100,
+                "reps": 8
+                },
+                {
+                "weight": 100,
+                "reps": 8
+                },
+                {
+                "weight": 100,
+                "reps": 8
+                },
+                {
+                "weight": 100,
+                "reps": 8
+                }
+            ]
         },
         {
-            "set": 3,
-            "weight": "150lbs",
-            "reps": 5
+            "name": "Bench press",
+            "sets": [
+                {
+                "weight": 135,
+                "reps": 5
+                },
+                {
+                "weight": 135,
+                "reps": 5
+                },
+                {
+                "weight": 135,
+                "reps": 5
+                },
+                {
+                "weight": 135,
+                "reps": 5
+                }
+            ]
         },
         {
-            "set": 4,
-            "weight": "150lbs",
-            "reps": 5
-        }]
-    },
-    {
-        "name": "OHP",
-        "sets": [{
-            "set": 1,
-            "weight": "125lbs",
-            "reps": 8
+            "name": "OHP",
+            "sets": [
+                {
+                "weight": 100,
+                "reps": 8
+                },
+                {
+                "weight": 100,
+                "reps": 8
+                },
+                {
+                "weight": 100,
+                "reps": 8
+                },
+                {
+                "weight": 100,
+                "reps": 8
+                }
+            ]
         },
         {
-            "set": 2,
-            "weight": "125lbs",
-            "reps": 8
+            "name": "Bench press",
+            "sets": [
+                {
+                "weight": 135,
+                "reps": 5
+                },
+                {
+                "weight": 135,
+                "reps": 5
+                },
+                {
+                "weight": 135,
+                "reps": 5
+                },
+                {
+                "weight": 135,
+                "reps": 5
+                }
+            ]
         },
         {
-            "set": 3,
-            "weight": "125lbs",
-            "reps": 8
-        },
-        {
-            "set": 4,
-            "weight": "125lbs",
-            "reps": 8
-        }]
+            "name": "OHP",
+            "sets": [
+                {
+                "weight": 100,
+                "reps": 8
+                },
+                {
+                "weight": 100,
+                "reps": 8
+                },
+                {
+                "weight": 100,
+                "reps": 8
+                },
+                {
+                "weight": 100,
+                "reps": 8
+                }
+            ]
+        }
+        ]
     }
 ]

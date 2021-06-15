@@ -37,7 +37,6 @@ router.post('/templates', (req, res) => {
         ]
         }
     ]
-    console.log(req.body);
     templatesData.push(newTemplate);
     writeTemplates(templatesData);
     return res.json(newTemplate);

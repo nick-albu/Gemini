@@ -27,5 +27,48 @@
                 "sets": 5
             }
         ]
-    }
+    },
+    [
+        {
+            "name": "Pull Day",
+            "exercises": [
+                {
+                    "exercise1": {
+                        "exercise1": "Bench press",
+                        "sets1": 4
+                    }
+                },
+                {
+                    "exercise2": {
+                        "exercise2": "OHP",
+                        "sets2": 4
+                    }
+                },
+                {
+                    "exercise3": {
+                        "exercise3": "Incline Bench",
+                        "sets3": 4
+                    }
+                },
+                {
+                    "exercise4": {
+                        "exercise4": "Skull Crushers",
+                        "sets4": 4
+                    }
+                },
+                {
+                    "exercise5": {
+                        "exercise5": "French Press",
+                        "sets5": 4
+                    }
+                },
+                {
+                    "exercise6": {
+                        "exercise6": "Lat Raises",
+                        "sets6": 5
+                    }
+                }
+            ]
+        }
+    ]
 ]

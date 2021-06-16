@@ -24,22 +24,22 @@ router.get('/templates', (_req, res) => {
 // Function to post to /templates
 router.post('/templates', (req, res) => {
     const templatesData = readTemplates();
-    const newTemplate = [
-        {
+    const newTemplate = {
         name: req.body.name,
         exercises: [
-            {exercise1: req.body.exercises[0], sets1: req.body.exercises.sets1}, 
-            {exercise2: req.body.exercises[1], sets2: req.body.exercises.sets2}, 
-            {exercise3: req.body.exercises[2], sets3: req.body.exercises.sets3}, 
-            {exercise4: req.body.exercises[3], sets4: req.body.exercises.sets4},
-            {exercise5: req.body.exercises[4], sets5: req.body.exercises.sets5}, 
-            {exercise6: req.body.exercises[5], sets6: req.body.exercises.sets6},
+            {name: req.body.exercises[0], sets: req.body.exercises[1]}, 
+            {name: req.body.exercises[1], sets: req.body.exercises[1]}, 
+            {name: req.body.exercises[2], sets: req.body.exercises[1]}, 
+            {name: req.body.exercises[3], sets: req.body.exercises[1]},
+            {name: req.body.exercises[4], sets: req.body.exercises[1]}, 
+            {name: req.body.exercises[5], sets: req.body.exercises[1]},
         ]
-        }
-    ]
+    }
+    console.log(req.body);
     templatesData.push(newTemplate);
     writeTemplates(templatesData);
     return res.json(newTemplate);
 })
 
 module.exports = router;
+

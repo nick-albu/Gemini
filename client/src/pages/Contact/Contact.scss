@@ -2,7 +2,7 @@
 @use '../../partials/mixins' as *;
 @use '../../partials/animations' as *;
 
-.aboutPage {
+.contactPage{
     height: 100vh;
     width: 100vw;
     background-color: $Charcoal;
@@ -19,18 +19,39 @@
         -moz-animation: neon 2s ease infinite;
         -webkit-animation: neon 2s ease infinite;
     }
-    &__hero {
-        width: 70%;
-        padding-top: 3rem;
-        padding-bottom: 1rem;
-        
-    }
-    &__statement {
+    &__infoHeader {
         color: $Alabaster;
-        font-size: 1.5rem;
-        padding: 1.5rem 1rem;
         margin: 0;
+        letter-spacing: 1px;
+        border-bottom: 1px solid $Silver;
+        width: 90%;
+        height: 2rem;
         text-align: center;
+    }
+    &__hero {
+        width: 45%;
+        padding: 1rem;
+    }
+    &__info {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: $Silver;
+        margin: 0;
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: $Gray;
+        border: 1px solid $Silver;
+        border-radius: 5px;
+        width: 18rem;
+        height: 7rem;
+        &--margin {
+            margin: 1rem;
+        }
     }
     &__return {
         height: 1.75rem;
@@ -42,7 +63,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0.2rem;
+        margin-top: 1.5rem;
     }
 }
-

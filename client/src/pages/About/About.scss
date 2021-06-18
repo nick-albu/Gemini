@@ -10,14 +10,11 @@
     flex-direction: column;
     align-items: center;
     &__header {
-        color: $Gemini-orange;
+        color: $Gemini-pink;
         margin: 0;
         padding-top: 2rem;
         letter-spacing: 1px;
         font-size: 4rem;
-        animation: neon 2s ease infinite;
-        -moz-animation: neon 2s ease infinite;
-        -webkit-animation: neon 2s ease infinite;
     }
     &__hero {
         width: 70%;
@@ -32,17 +29,24 @@
         margin: 0;
         text-align: center;
     }
+    &__returnContainer {
+        
+    }
     &__return {
         height: 1.75rem;
         width: 10rem;
         text-decoration: none;
         color: $Alabaster;
-        background-color: #CC0776;
+        background-color: $Gray;
+        border: 1px solid $Silver;
         border-radius: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 0.2rem;
+        animation: neon 2s ease infinite;
+        -moz-animation: neon 2s ease infinite;
+        -webkit-animation: neon 2s ease infinite;
     }
 }
 

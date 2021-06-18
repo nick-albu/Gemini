@@ -2,10 +2,9 @@
 @use '../../partials/mixins' as *;
 @use '../../partials/animations' as *;
 
-.templateForm {
+.workoutForm {
     background-color: $Charcoal;
     color: $Alabaster;
-    height: 100vh;
     &__headerContainer {
         display: flex;
         justify-content: flex-start;
@@ -14,45 +13,33 @@
     }
     &__header {
         margin: 0 0 0 2rem;
-        font-size: 2rem;
+        font-size: 3rem;
     }
     &__logo {
         width: 4rem;
     }
-    &__form {
+    &__exerciseContainer {
         padding: 1rem;
         margin: 1rem;
         border: 1px solid gray;
         border-radius: 5px;
     }
-    &__formHeader{
-        margin: 0 0 0 1rem;
+    &__exerciseHeader {
+        margin: 0 0 1rem 0;
+        border-bottom: 1px solid $Alabaster;
+        width: 100%;
     }
-    &__inputContainer {
+    &__setContainer {
         display: flex;
         justify-content: flex-start;
         margin-bottom: 0.5rem;
     }
     &__templateName {
-        margin: 1rem;
-        width: 10rem;
-        border-radius: 5px;
-        border: none;
-        padding: .25rem;
+        margin: 3rem;
     }
     &__input {
-        width: 7rem;
+        width: 5rem;
         margin-left: 1rem;
-        border-radius: 5px;
-        border: none;
-        padding: .25rem;
-    }
-    &__setInput {
-        width: 4rem;
-        margin-left: 1rem;
-        border-radius: 5px;
-        border: none;
-        padding: .25rem;
     }
     &__label {
         margin-left: 1rem;
@@ -72,7 +59,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: .5rem;
+        margin-top: 0.2rem;
+        margin-bottom: 1rem;
         animation: neon 2s ease infinite;
         -moz-animation: neon 2s ease infinite;
         -webkit-animation: neon 2s ease infinite;

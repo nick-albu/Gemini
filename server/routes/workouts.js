@@ -11,7 +11,7 @@ function readWorkouts () {
 }
 
 // Function to write workout data
-function writeWorkouts () {
+function writeWorkouts (data) {
     fs.writeFileSync('./data/workouts.json', JSON.stringify(data));
 }
 
@@ -22,25 +22,19 @@ router.get('/workouts', (_req, res) => {
 })
 
 // Function to post to /workouts
-// router.post('/workouts', (req, res) => {
-//     const workoutsData = readWorkouts();
-//     const newWorkout = [
-//         {
-//         name: "Insert Name",
-//         exercises: [
-//             {name: "", sets: 0}, 
-//             {name: "", sets: 0}, 
-//             {name: "", sets: 0}, 
-//             {name: "", sets: 0},
-//             {name: "", sets: 0}, 
-//             {name: "", sets: 0},
-//         ]
-//         }
-//     ]
-//     workoutsData.push(newWorkout);
-//     writeWorkouts(workoutsData);
-//     return res.json(newWorkout);
-// })
+router.post('/workouts', (req, res) => {
+    const workoutsData = readWorkouts();
+    const newWorkout = [
+        {
+        name: req.body.name,
+        id: uuid.v4(),
+        exercises: req.body.exercises
+        }
+    ]
+    workoutsData.push(newWorkout);
+    writeWorkouts(workoutsData);
+    return res.json(newWorkout);
+})
 
 
 module.exports = router;

@@ -1,0 +1,14 @@
+@use '../../partials/variables' as *;
+@use '../../partials/mixins' as *;
+@use '../../partials/animations' as *;
+
+.profile {
+    background-color: $Charcoal;
+    color: $Alabaster;
+    &__avatar {
+        height: 8rem;
+        width: 8rem;
+        border-radius: 100px;
+        object-fit: cover;
+    }
+}

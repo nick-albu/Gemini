@@ -25,7 +25,7 @@ function Contact () {
                 </p>
                 <a className='contactPage__info' href="mailto:careers@geminifitness.com?">careers@geminifitness.com</a>
             </div>
-            <Link className='contactPage__return' to='/'>Back To Profile</Link>
+            <Link className='contactPage__return' to='/profile'>Back To Profile</Link>
         </section>
     )
 }

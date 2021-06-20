@@ -3,12 +3,67 @@
 @use '../../partials/animations' as *;
 
 .profile {
-    background-color: $Charcoal;
+    background-image: url(../../assets/images/landing-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: $Alabaster;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__avatarContainer {
+        display: flex;
+        flex-direction: column;
+    }
     &__avatar {
         height: 8rem;
         width: 8rem;
         border-radius: 100px;
         object-fit: cover;
+        margin-left: 2rem;
+        border: 2px solid $Silver;
+    }
+    &__name {
+        padding: 2rem 0 1rem 2rem;
+        margin: 0;
+        font-size: 2rem;
+    }
+    &__allContainer {
+        display: flex;
+        background-color: $Gray;
+        flex-direction: column;
+        padding: 2rem 1rem;
+        border-radius: 5px;
+        margin: 0 1rem;
+    }
+    &__linkContainer {
+        display: flex;
+        align-items: center;
+        &--margin {
+            margin: 2rem 0;
+        }
+    }
+    &__linkIcon {
+        margin: 0 1rem;
+    }
+    &__link {
+        text-decoration: none;
+        color: $Alabaster;
+        font-size: 1.5rem;
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        height: 2rem;
+        background-color: $Gray;
+        align-items: center;
+        padding: 0 1rem;
+        border-top: 1px solid $Silver;
+    }
+    &__footerLink {
+        text-decoration: none;
+        color: $Alabaster;
     }
 }

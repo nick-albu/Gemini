@@ -7,7 +7,7 @@ function LandingPage() {
     return (
         <section className='landingPage'>
             <img className='landingPage__logo' src={Logo} alt='landing-page-logo'/>
-            <Link to='/' className='landingPage__cda'>GET STARTED</Link>
+            <Link to='/profile' className='landingPage__cda'>GET STARTED</Link>
         </section>
     )
 }

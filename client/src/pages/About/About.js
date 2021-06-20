@@ -12,7 +12,7 @@ function About() {
                 easy as possible for the user while limiting necessary
                 screen time in order to  keep focus on your fitness.
             </p>
-            <Link className='aboutPage__return' to='/'>Back To Profile</Link>
+            <Link className='aboutPage__return' to='/profile'>Back To Profile</Link>
         </section>
     )
 }

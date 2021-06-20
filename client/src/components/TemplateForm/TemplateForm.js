@@ -35,6 +35,9 @@ class TemplateForm extends Component {
         }
         e.preventDefault();
         axios.post('http://localhost:8080/templates', newWorkout)
+        .then ((_response) => {
+            this.props.history.push("/profile")
+        })
     }
 
     render () {

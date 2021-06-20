@@ -24,13 +24,11 @@ router.get('/workouts', (_req, res) => {
 // Function to post to /workouts
 router.post('/workouts', (req, res) => {
     const workoutsData = readWorkouts();
-    const newWorkout = [
-        {
+    const newWorkout = {
         name: req.body.name,
         id: uuid.v4(),
         exercises: req.body.exercises
-        }
-    ]
+    }
     workoutsData.push(newWorkout);
     writeWorkouts(workoutsData);
     return res.json(newWorkout);

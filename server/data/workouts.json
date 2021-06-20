@@ -1,140 +1,138 @@
 [
-    [
-        {
-            "name": "Push Day",
-            "id": "b39fca69-0e21-4b2b-aafa-64d5fdf22956",
-            "exercises": [
-                {
-                    "name": "Bench Press",
-                    "sets": [
-                        {
-                            "weight": "135",
-                            "reps": "5"
-                        },
-                        {
-                            "weight": "140",
-                            "reps": "5"
-                        },
-                        {
-                            "weight": "145",
-                            "reps": "5"
-                        },
-                        {
-                            "weight": "150",
-                            "reps": "4"
-                        }
-                    ]
-                },
-                {
-                    "name": "Overhead Press",
-                    "sets": [
-                        {
-                            "weight": "85",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "85",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "85",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "85",
-                            "reps": "8"
-                        }
-                    ]
-                },
-                {
-                    "name": "Incline Bench",
-                    "sets": [
-                        {
-                            "weight": "100",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "100",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "100",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "100",
-                            "reps": "8"
-                        }
-                    ]
-                },
-                {
-                    "name": "Skullcrushers",
-                    "sets": [
-                        {
-                            "weight": "60",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "60",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "60",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "60",
-                            "reps": "5"
-                        }
-                    ]
-                },
-                {
-                    "name": "French Press",
-                    "sets": [
-                        {
-                            "weight": "50",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "50",
-                            "reps": "8"
-                        },
-                        {
-                            "weight": "50",
-                            "reps": "6"
-                        },
-                        {
-                            "weight": "40",
-                            "reps": "8"
-                        }
-                    ]
-                },
-                {
-                    "name": "Lat Raises",
-                    "sets": [
-                        {
-                            "weight": "15",
-                            "reps": "12"
-                        },
-                        {
-                            "weight": "15",
-                            "reps": "12"
-                        },
-                        {
-                            "weight": "15",
-                            "reps": "12"
-                        },
-                        {
-                            "weight": "15",
-                            "reps": "12"
-                        },
-                        {
-                            "weight": "15",
-                            "reps": "12"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    {
+        "name": "Push Day",
+        "id": "b39fca69-0e21-4b2b-aafa-64d5fdf22956",
+        "exercises": [
+            {
+                "name": "Bench Press",
+                "sets": [
+                    {
+                        "weight": "135",
+                        "reps": "5"
+                    },
+                    {
+                        "weight": "140",
+                        "reps": "5"
+                    },
+                    {
+                        "weight": "145",
+                        "reps": "5"
+                    },
+                    {
+                        "weight": "150",
+                        "reps": "4"
+                    }
+                ]
+            },
+            {
+                "name": "Overhead Press",
+                "sets": [
+                    {
+                        "weight": "85",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "85",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "85",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "85",
+                        "reps": "8"
+                    }
+                ]
+            },
+            {
+                "name": "Incline Bench",
+                "sets": [
+                    {
+                        "weight": "100",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "100",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "100",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "100",
+                        "reps": "8"
+                    }
+                ]
+            },
+            {
+                "name": "Skullcrushers",
+                "sets": [
+                    {
+                        "weight": "60",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "60",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "60",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "60",
+                        "reps": "5"
+                    }
+                ]
+            },
+            {
+                "name": "French Press",
+                "sets": [
+                    {
+                        "weight": "50",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "50",
+                        "reps": "8"
+                    },
+                    {
+                        "weight": "50",
+                        "reps": "6"
+                    },
+                    {
+                        "weight": "40",
+                        "reps": "8"
+                    }
+                ]
+            },
+            {
+                "name": "Lat Raises",
+                "sets": [
+                    {
+                        "weight": "15",
+                        "reps": "12"
+                    },
+                    {
+                        "weight": "15",
+                        "reps": "12"
+                    },
+                    {
+                        "weight": "15",
+                        "reps": "12"
+                    },
+                    {
+                        "weight": "15",
+                        "reps": "12"
+                    },
+                    {
+                        "weight": "15",
+                        "reps": "12"
+                    }
+                ]
+            }
+        ]
+    }
 ]

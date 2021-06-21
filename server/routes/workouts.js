@@ -27,6 +27,7 @@ router.post('/workouts', (req, res) => {
     const newWorkout = {
         name: req.body.name,
         id: uuid.v4(),
+        date: Date.now(),
         exercises: req.body.exercises
     }
     workoutsData.push(newWorkout);

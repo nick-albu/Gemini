@@ -52,6 +52,9 @@ class WorkoutForm extends Component {
         }
         e.preventDefault();
         axios.post('http://localhost:8080/workouts', newWorkout)
+        .then((_response) => {
+            this.props.history.push("/profile")
+        })
     }
 
     render () {

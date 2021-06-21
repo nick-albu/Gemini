@@ -9,12 +9,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     &__header {
-        color: $Gemini-pink;
+        color: $Gemini-orange;
         margin: 0;
         padding-top: 2rem;
         letter-spacing: 1px;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     &__hero {
         width: 70%;
@@ -36,17 +37,15 @@
         height: 1.75rem;
         width: 10rem;
         text-decoration: none;
-        color: $Alabaster;
-        background-color: $Gray;
-        border: 1px solid $Silver;
+        color: white;
+        background-color: #CC0776;
         border-radius: 50px;
+        border: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 0.2rem;
-        animation: neon 2s ease infinite;
-        -moz-animation: neon 2s ease infinite;
-        -webkit-animation: neon 2s ease infinite;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
     }
 }
 

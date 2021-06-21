@@ -2,7 +2,8 @@ import './WorkoutForm.scss';
 import { Component } from 'react';
 import axios from 'axios';
 import ExerciseInput from '../ExerciseInput/ExerciseInput'
-import Logo from '../../assets/logos/logo.svg';
+import Back from '../../assets/images/chevron-left.svg';
+import { Link } from "react-router-dom";
 
 class WorkoutForm extends Component {
     state = {
@@ -61,7 +62,7 @@ class WorkoutForm extends Component {
         return (
             <section className='workoutForm'>
                 <div className='workoutForm__headerContainer'>
-                    <img className='workoutForm__logo' src={Logo} alt='logo'/>
+                    <Link to='/profile'><img className='workoutForm__back' src={Back} alt='logo'/></Link>
                     <h1 className='workoutForm__header'>{this.state.name}</h1>
                 </div>
                 <form className='workoutForm__form'>

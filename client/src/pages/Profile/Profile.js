@@ -20,7 +20,7 @@ function Profile () {
                 </div>
                 <div className='profile__linkContainer profile__linkContainer--margin'>
                     <img className='profile__linkIcon' src={Weights} alt='link-image' />
-                    <Link className='profile__link' to='/'>Do a workout</Link>
+                    <Link className='profile__link' to='workout/4950f136-5e4e-4037-994f-ed71b5a6c847'>Do a workout</Link>
                 </div>
                 <div className='profile__linkContainer'>
                     <img className='profile__linkIcon' src={History} alt='link-image' />

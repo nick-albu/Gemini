@@ -8,22 +8,21 @@
     height: 100vh;
     &__headerContainer {
         display: flex;
-        justify-content: flex-start;
-        padding: 1rem;
-        border-bottom: 1px solid $Alabaster;
+        justify-content: center;
+        padding: 1rem 1rem 0 1rem;
     }
     &__header {
-        margin: 0 0 0 2rem;
-        font-size: 2rem;
+        margin: 0;
     }
-    &__logo {
-        width: 4rem;
+    &__back {
+        width: 1.5rem;
     }
     &__form {
         padding: 1rem;
         margin: 1rem;
         width: 100;
-        border: 1px solid gray;
+        background-color: $Gray;
+        border: 1px solid $Silver;
         border-radius: 5px;
     }
     &__formHeader{
@@ -40,22 +39,32 @@
         border-radius: 5px;
         border: none;
         padding: .25rem;
+        border: 1px solid $Mercury;
+        background-color: $Alabaster;
     }
     &__input {
-        width: 7rem;
-        margin-left: 1rem;
+        width: 10rem;
         border-radius: 5px;
         border: none;
         padding: .25rem;
+        margin-top: .5rem;
+        border: 1px solid $Mercury;
+        background-color: $Alabaster;
     }
     &__setInput {
-        width: 4rem;
-        margin-left: 1rem;
+        width: 5rem;
         border-radius: 5px;
         border: none;
         padding: .25rem;
+        margin-top: .5rem;
+        background-color: $Alabaster;
+        border: 1px solid $Mercury;
+        background-color: $Alabaster;
     }
     &__label {
+        color: $Mercury;
+        display: flex;
+        flex-direction: column;
         margin-left: 1rem;
     }
     &__buttonContainer {
@@ -66,16 +75,17 @@
         height: 1.75rem;
         width: 10rem;
         text-decoration: none;
-        color: $Alabaster;
-        background-color: $Gray;
-        border: 1px solid $Silver;
+        color: white;
+        background-color: #CC0776;
         border-radius: 50px;
+        border: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: .5rem;
-        animation: neon 2s ease infinite;
-        -moz-animation: neon 2s ease infinite;
-        -webkit-animation: neon 2s ease infinite;
+        margin-top: 1rem;
+        letter-spacing: 1px;
+        // animation: neon 2s ease infinite;
+        // -moz-animation: neon 2s ease infinite;
+        // -webkit-animation: neon 2s ease infinite;
     }
 }

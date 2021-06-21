@@ -13,8 +13,9 @@ class PreviousWorkouts extends Component {
     componentDidMount() {
         axios.get('http://localhost:8080/workouts')
         .then((response) => {
+            const newToOld = response.data.reverse()
             this.setState({
-                workouts: response.data
+                workouts: newToOld
             })
         })
     }
@@ -30,7 +31,7 @@ class PreviousWorkouts extends Component {
         return (
         <section className='previousWorkouts'>
             <div className='previousWorkouts__headerContainer'>
-                <Link to='/profile'><img src={Back} alt='back-arrow'/></Link>
+                <Link to='/profile'><img className='previousWorkouts__back' src={Back} alt='back-arrow'/></Link>
                 <h1 className='previousWorkouts__header'>Previous Workouts</h1>
             </div>
             {this.state.workouts.map((workout) => (

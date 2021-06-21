@@ -2,7 +2,8 @@ import './TemplateForm.scss';
 import { Component } from 'react';
 import axios from 'axios';
 import TemplateInput from '../TemplateInput/TemplateInput'
-import Logo from '../../assets/logos/logo.svg';
+import { Link } from "react-router-dom";
+import Back from '../../assets/images/chevron-left.svg';
 
 class TemplateForm extends Component {
     state = {
@@ -44,8 +45,8 @@ class TemplateForm extends Component {
         return (
         <section className='templateForm'>
             <div className='templateForm__headerContainer'>
-                <img className='templateForm__logo' src={Logo} alt='logo'/>
-                <h1 className='templateForm__header'>Create your workout template</h1>
+                <Link to='/profile'><img className='templateForm__back' src={Back} alt='logo'/></Link>
+                <h1 className='templateForm__header'>Create a template</h1>
             </div>
             <form className='templateForm__form'>
                 <h2 className='templateForm__formHeader'>Your Workout Name</h2>

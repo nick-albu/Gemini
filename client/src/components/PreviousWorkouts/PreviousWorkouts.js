@@ -50,8 +50,8 @@ class PreviousWorkouts extends Component {
                                 </div>
                                 {exercise.sets.map((set) => (
                                     <div className='previousWorkouts__infoContainer'>
-                                        <p className='previousWorkouts__setsValue'>{set.weight}</p>
-                                        <p className='previousWorkouts__setsValue'>{set.reps}</p>
+                                        <p className='previousWorkouts__repsValue'>{set.weight}</p>
+                                        <p className='previousWorkouts__repsValue'>{set.reps}</p>
                                     </div>
                                 ))}
                             </div>

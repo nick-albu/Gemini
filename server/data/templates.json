@@ -1,1 +1,92 @@
-[{"name":"Push Day","id":"4950f136-5e4e-4037-994f-ed71b5a6c847","exercises":[{"name":"Bench Press","sets":"4"},{"name":"Overhead Press","sets":"4"},{"name":"Incline Bench","sets":"4"},{"name":"Skullcrushers","sets":"4"},{"name":"French Press","sets":"4"},{"name":"Lat Raises","sets":"5"}]},{"name":"Pull Day","id":"d8300813-d86a-4c65-b477-89621b4fa6e5","exercises":[{"name":"Dead Lifts","sets":"4"},{"name":"Seated Cable Row","sets":"4"},{"name":"Lat Pulldown","sets":"4"},{"name":"Bicep Curl","sets":"4"},{"name":"Hammer Curl ","sets":"4"},{"name":"Sit Ups","sets":"5"}]},{"name":"","id":"96de9a0a-5cd9-4973-9fb3-16e65503dc7c","exercises":[{"name":"","sets":0},{"name":"","sets":0},{"name":"","sets":0},{"name":"","sets":0},{"name":"","sets":0},{"name":"","sets":0}]}]
+[
+    {
+        "name": "Push Day",
+        "id": "4950f136-5e4e-4037-994f-ed71b5a6c847",
+        "exercises": [
+            {
+                "name": "Bench Press",
+                "sets": "4"
+            },
+            {
+                "name": "Overhead Press",
+                "sets": "4"
+            },
+            {
+                "name": "Incline Bench",
+                "sets": "4"
+            },
+            {
+                "name": "Skullcrushers",
+                "sets": "4"
+            },
+            {
+                "name": "French Press",
+                "sets": "4"
+            },
+            {
+                "name": "Lat Raises",
+                "sets": "5"
+            }
+        ]
+    },
+    {
+        "name": "Pull Day",
+        "id": "d8300813-d86a-4c65-b477-89621b4fa6e5",
+        "exercises": [
+            {
+                "name": "Dead Lifts",
+                "sets": "4"
+            },
+            {
+                "name": "Seated Cable Row",
+                "sets": "4"
+            },
+            {
+                "name": "Lat Pulldown",
+                "sets": "4"
+            },
+            {
+                "name": "Bicep Curl",
+                "sets": "4"
+            },
+            {
+                "name": "Hammer Curl ",
+                "sets": "4"
+            },
+            {
+                "name": "Sit Ups",
+                "sets": "5"
+            }
+        ]
+    },
+    {
+        "name": "Leg Day",
+        "id": "f5d62cb7-2250-4f4a-bda9-21ae3867bf95",
+        "exercises": [
+            {
+                "name": "Squats",
+                "sets": "4"
+            },
+            {
+                "name": "Front-Squats",
+                "sets": "4"
+            },
+            {
+                "name": "Leg Press",
+                "sets": "4"
+            },
+            {
+                "name": "Curl",
+                "sets": "4"
+            },
+            {
+                "name": "Kicks",
+                "sets": "4"
+            },
+            {
+                "name": "Calf Raises",
+                "sets": "5"
+            }
+        ]
+    }
+]

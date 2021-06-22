@@ -32,21 +32,52 @@
     }
     &__allContainer {
         display: flex;
-        background-color: $Silver;
+        background-color: $Gray;
+        border: 1px solid $Silver;
         border-radius: 5px;
         flex-direction: column;
+        align-items: center;
         padding: 1rem;
         margin: 0 1rem;
+    }
+    &__dropdownContainer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 15rem;
+        height: 6rem;
+        padding-bottom: 0.5rem;
+        background-color: $Gemini-light-pink;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        justify-content: center;
+        overflow: scroll;
+    }
+    &__expand {
+        margin-left: 7rem;
+    }
+    &__dropdownLink {
+        text-decoration: none;
+        background-color: $Gemini-pink;
+        color: white;
+        margin: 0.5rem 0.5rem 0 0.5rem;
+        border-radius: 5px;
+        height: 2rem;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
     }
     &__linkContainer {
         display: flex;
         align-items: center;
-        background-color: $Gray;
+        background-color: $Charcoal;
         border-radius: 5px;
         height: 3rem;
+        width: 100%;
         display: flex;
         &--margin {
-            margin: 1rem 0;
+            margin-top: 1rem;
         }
     }
     &__linkIcon {

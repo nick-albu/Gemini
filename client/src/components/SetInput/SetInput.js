@@ -1,5 +1,3 @@
-import './SetInput.scss';
-
 function SetInput(props) {
 
 const handleInputChange = (e) => {

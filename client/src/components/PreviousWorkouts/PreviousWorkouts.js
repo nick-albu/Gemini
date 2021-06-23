@@ -1,7 +1,6 @@
 import './PreviousWorkouts.scss';
 import { Component } from 'react';
 import axios from 'axios';
-import Logo from '../../assets/logos/logo.svg';
 import Back from '../../assets/images/chevron-left.svg';
 import { Link } from "react-router-dom";
 
@@ -10,6 +9,7 @@ class PreviousWorkouts extends Component {
         workouts: []
     }
 
+    // Collects workout data and displays it newest to oldest
     componentDidMount() {
         axios.get('http://localhost:8080/workouts')
         .then((response) => {

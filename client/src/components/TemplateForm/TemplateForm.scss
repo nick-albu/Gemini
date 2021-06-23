@@ -1,6 +1,4 @@
 @use '../../partials/variables' as *;
-@use '../../partials/mixins' as *;
-@use '../../partials/animations' as *;
 
 .templateForm {
     background-color: $Charcoal;
@@ -81,8 +79,5 @@
         align-items: center;
         margin-top: 1rem;
         letter-spacing: 1px;
-        // animation: neon 2s ease infinite;
-        // -moz-animation: neon 2s ease infinite;
-        // -webkit-animation: neon 2s ease infinite;
     }
 }

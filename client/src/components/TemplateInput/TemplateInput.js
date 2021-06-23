@@ -1,11 +1,8 @@
-import './TemplateInput.scss';
-
 function TemplateInput(props) {
 
 const handleInputChange = (e) => {
     props.handleChange (props.index, e.target.name, e.target.value)
     }  
-
 
 return (
     <div className='templateForm__inputContainer'>

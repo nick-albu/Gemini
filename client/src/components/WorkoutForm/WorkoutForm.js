@@ -16,7 +16,6 @@ class WorkoutForm extends Component {
     componentDidMount() {
         axios.get("http://localhost:8080/templates/" + this.props.match.params.id)
         .then ((response) => {
-            console.log(response.data)
             const newState = {
                 name: response.data.name,
                 id: response.data.id,
@@ -53,7 +52,7 @@ class WorkoutForm extends Component {
         }
         e.preventDefault();
         axios.post('http://localhost:8080/workouts', newWorkout)
-        .then((_response) => {
+        .then((response) => {
             this.props.history.push("/profile")
         })
     }

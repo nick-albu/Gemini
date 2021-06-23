@@ -4,8 +4,6 @@ const handleInputChange = (e) => {
     props.handleChange (props.exerciseIndex, props.setIndex, e.target.name, e.target.value)
     }  
 
-console.log(props);
-
 return (
     <div className='workoutForm__setContainer'>
         <label className='workoutForm__label'>

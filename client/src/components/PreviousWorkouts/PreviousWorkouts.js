@@ -27,7 +27,6 @@ class PreviousWorkouts extends Component {
     }
 
     render () {
-        console.log(this.state.workouts)
         return (
         <section className='previousWorkouts'>
             <div className='previousWorkouts__headerContainer'>

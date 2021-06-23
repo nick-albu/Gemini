@@ -11,8 +11,8 @@ class WorkoutForm extends Component {
         id: "",
         exercises: []
     }
-    // exercises should be an empty array ^
-    // 
+
+    // Gets a template by id and sets it into state
     componentDidMount() {
         axios.get("http://localhost:8080/templates/" + this.props.match.params.id)
         .then ((response) => {
@@ -33,7 +33,6 @@ class WorkoutForm extends Component {
                 }
                 newState.exercises.push(newExercise)
             });
-            // we have to generate this object before it goes into state
             this.setState(newState);
         })
     }

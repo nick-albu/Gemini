@@ -1,6 +1,4 @@
 @use '../../partials/variables' as *;
-@use '../../partials/mixins' as *;
-@use '../../partials/animations' as *;
 
 .aboutPage {
     height: 100vh;
@@ -29,9 +27,6 @@
         padding: 1rem;
         margin: 0;
         text-align: center;
-    }
-    &__returnContainer {
-        
     }
     &__return {
         height: 1.75rem;

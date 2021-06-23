@@ -2,7 +2,6 @@ import './LandingPage.scss';
 import Logo from '../../assets/logos/logo.svg';
 import { Link } from "react-router-dom";
 
-
 function LandingPage() {
     return (
         <section className='landingPage'>

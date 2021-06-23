@@ -16,6 +16,7 @@ class WorkoutForm extends Component {
     componentDidMount() {
         axios.get("http://localhost:8080/templates/" + this.props.match.params.id)
         .then ((response) => {
+            console.log(response.data)
             const newState = {
                 name: response.data.name,
                 id: response.data.id,

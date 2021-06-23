@@ -23,6 +23,7 @@ class Profile extends Component {
     getWorkouts = () => {
         axios.get('http://localhost:8080/templates')
         .then((response) => {
+            console.log(response.data)
             this.setState({
                 workouts: response.data
             })
@@ -52,9 +53,11 @@ class Profile extends Component {
                     </div>
                     {this.state.showLinks && (
                     <div className='profile__dropdownContainer'>
-                        {this.state.workouts.map((workout) =>
-                        (<Link className='profile__dropdownLink' to={`/workout/${workout.id}`}>{workout.name}</Link>
-                        ))}
+                        {this.state.workouts.map(({templates}) =>
+                        {
+                        const{id, name} = templates[0]    
+                        return <Link className='profile__dropdownLink' to={`/workout/${id}`}>{name}</Link>
+                        })}
                     </div>
                     )}
                     <div className='profile__linkContainer profile__linkContainer--margin'>

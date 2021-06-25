@@ -42,11 +42,11 @@ class Profile extends Component {
                 </div>
                 <div className='profile__allContainer'>
                     <div className='profile__linkContainer'>
-                        <img className='profile__linkIcon' src={Create} alt='link-image' />
+                        <img className='profile__linkIcon' src={Create} alt='link' />
                         <Link className='profile__link' to='/create'>Design a new workout</Link>
                     </div>
                     <div onClick={this.toggleLinks} className='profile__linkContainer profile__linkContainer--margin'>
-                        <img className='profile__linkIcon' src={Weights} alt='link-image' />
+                        <img className='profile__linkIcon' src={Weights} alt='link' />
                         <p className='profile__link' to=''>Do a workout</p>
                         <img className='profile__expand' src={Expand} alt='arrow-down'/>
                     </div>
@@ -58,7 +58,7 @@ class Profile extends Component {
                     </div>
                     )}
                     <div className='profile__linkContainer profile__linkContainer--margin'>
-                        <img className='profile__linkIcon' src={History} alt='link-image' />
+                        <img className='profile__linkIcon' src={History} alt='link' />
                         <Link className='profile__link' to='/previous-workouts'>View past workouts</Link>
                     </div>
                 </div>

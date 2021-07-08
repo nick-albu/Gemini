@@ -1,6 +1,6 @@
 # About Gemini
 
-Here's a link to a short demo https://www.loom.com/share/bc83fa2cf2bb46ec8478b61da169fa01
+Here's a link to a short demo (👆👀 click this -> https://www.loom.com/share/bc83fa2cf2bb46ec8478b61da169fa01)
 
 This project was created with JavaScript, React, Scss, MongoDB, Express and Node.
 
